@@ -10,3 +10,4 @@ def batch_badge_creator(att)
   puts "Hello, my name is #{att}."
 end
 
+def printer
