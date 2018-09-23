@@ -7,7 +7,7 @@ def assign_rooms(name)
 end
   
 def batch_badge_creator(name)
-  "Hello, my name is #{name}."
+  "Hello, my name is #{name.each}."
 end
 
 def printer(name)
