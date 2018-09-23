@@ -7,4 +7,6 @@ def assign_rooms(name)
 end
   
 def batch_badge_creator(att)
-  puts ""
+  puts "Hello, my name is #{att}."
+end
+
