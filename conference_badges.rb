@@ -3,8 +3,6 @@ def badge_maker(name)
 end
 
 def assign_rooms(name)
-  room = 1 
-  puts "Hello, #{name}! You'll be assigned to room #{room}!"
-  room += 1 
+  name.each_with_index puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
   
