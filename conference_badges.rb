@@ -8,7 +8,8 @@ end
   
 def batch_badge_creator(name)
   name.each do |nm|
-  "Hello, my name is #{nm}."
+    puts "Hello, my name is #{nm}."
+  end
 end
 
 def printer(name)
