@@ -6,8 +6,11 @@ def assign_rooms(name)
   name.each_with_index{|val,index| puts "Hello, #{val}! You'll be assigned to room #{index + 1}!"}
 end
   
-def batch_badge_creator(att)
-  puts "Hello, my name is #{att}."
+def batch_badge_creator(name)
+  puts "Hello, my name is #{name}."
 end
 
-def printer
+def printer(name)
+  batch_badge_creator
+  assign_rooms
+end
